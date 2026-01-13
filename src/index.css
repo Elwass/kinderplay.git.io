@@ -34,10 +34,16 @@ html {
   top: 0;
   left: 0;
   right: 0;
-  height: clamp(220px, 26vw, 280px);
+  height: clamp(240px, 28vw, 320px);
   background:
-    radial-gradient(95% 85% at 50% 0%, rgba(214, 189, 164, 0.22) 0%, rgba(251, 245, 238, 0) 76%),
-    linear-gradient(180deg, rgba(214, 189, 164, 0.2) 0%, rgba(251, 245, 238, 0) 88%);
+    radial-gradient(85% 80% at 50% 0%, rgba(214, 189, 164, 0.22) 0%, rgba(255, 255, 255, 0) 70%),
+    linear-gradient(
+      180deg,
+      rgba(214, 189, 164, 0.28) 0%,
+      rgba(235, 222, 208, 0.18) 35%,
+      rgba(255, 255, 255, 0) 78%
+    );
+  filter: blur(2px);
   pointer-events: none;
   z-index: 0;
 }

@@ -1,11 +1,25 @@
 import daycareMain from "../../assets/Rectangle 31 (4).png";
 import daycareSmall from "../../assets/Rectangle 45.png";
+import decoLeft from "../../assets/Group 20.png";
+import decoRight from "../../assets/Group 21.png";
 
 const DaycareProgram = () => {
   return (
-    <section className="our-programs-section relative w-full overflow-hidden bg-[#FBF5EE] py-[clamp(56px,7vw,120px)]">
+    <section className="our-programs-section relative w-full overflow-hidden bg-white py-[clamp(56px,7vw,120px)]">
+      <img
+        src={decoLeft}
+        alt=""
+        aria-hidden="true"
+        className="pointer-events-none absolute left-[48px] top-[160px] hidden h-[140px] w-[140px] opacity-60 lg:block"
+      />
+      <img
+        src={decoRight}
+        alt=""
+        aria-hidden="true"
+        className="pointer-events-none absolute bottom-[80px] right-[64px] hidden h-[160px] w-[160px] opacity-50 lg:block"
+      />
       <div className="relative mx-auto flex w-full max-w-[1440px] flex-col gap-[clamp(32px,4vw,60px)] px-6 md:px-12 lg:px-20">
-        <div className="relative z-10 flex min-h-[clamp(220px,26vw,280px)] flex-col items-center justify-center text-center text-[#6F5F52]">
+        <div className="relative z-10 flex min-h-[clamp(240px,28vw,300px)] flex-col items-center justify-center text-center text-[#6F5F52]">
           <p className="text-[clamp(32px,3.9vw,52px)] font-semibold leading-[1.2] text-[#6F5F52]">
             Our Programs
           </p>
