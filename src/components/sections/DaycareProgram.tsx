@@ -19,7 +19,7 @@ const DaycareProgram = () => {
         className="pointer-events-none absolute bottom-[80px] right-[64px] hidden h-[160px] w-[160px] opacity-50 lg:block"
       />
       <div className="relative mx-auto flex w-full max-w-[1440px] flex-col gap-[clamp(32px,4vw,60px)] px-6 md:px-12 lg:px-20">
-        <div className="relative z-10 flex min-h-[clamp(240px,28vw,300px)] flex-col items-center justify-center text-center text-[#6F5F52]">
+        <div className="relative z-10 flex min-h-[clamp(260px,30vw,340px)] flex-col items-center justify-center text-center text-[#6F5F52]">
           <p className="text-[clamp(32px,3.9vw,52px)] font-semibold leading-[1.2] text-[#6F5F52]">
             Our Programs
           </p>
