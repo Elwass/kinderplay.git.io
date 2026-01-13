@@ -5,25 +5,25 @@ import decoRight from "../../assets/Group 21.png";
 
 const DaycareProgram = () => {
   return (
-    <section className="our-programs-section relative w-full overflow-hidden bg-white py-[clamp(56px,7vw,120px)]">
+    <section className="our-programs-section relative w-full overflow-hidden bg-white py-[clamp(40px,6vw,96px)]">
       <img
         src={decoLeft}
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute left-[48px] top-[160px] hidden h-[140px] w-[140px] opacity-60 lg:block"
+        className="pointer-events-none absolute left-[40px] top-[120px] hidden h-[128px] w-[128px] opacity-55 lg:block"
       />
       <img
         src={decoRight}
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute bottom-[80px] right-[64px] hidden h-[160px] w-[160px] opacity-50 lg:block"
+        className="pointer-events-none absolute bottom-[48px] right-[56px] hidden h-[150px] w-[150px] opacity-45 lg:block"
       />
       <div className="relative mx-auto flex w-full max-w-[1440px] flex-col gap-[clamp(32px,4vw,60px)] px-6 md:px-12 lg:px-20">
-        <div className="relative z-10 flex min-h-[clamp(260px,30vw,340px)] flex-col items-center justify-center text-center text-[#6F5F52]">
+        <div className="relative z-10 flex min-h-[clamp(210px,24vw,260px)] flex-col items-center justify-center text-center text-[#6F5F52]">
           <p className="text-[clamp(32px,3.9vw,52px)] font-semibold leading-[1.2] text-[#6F5F52]">
             Our Programs
           </p>
-          <h2 className="mt-[10px] text-[clamp(26px,2.6vw,36px)] font-semibold leading-[1.25]">
+          <h2 className="mt-[6px] text-[clamp(26px,2.6vw,36px)] font-semibold leading-[1.25]">
             <span className="text-[#D98956]">Daycare</span> Program (Ages 1–5)
           </h2>
         </div>
