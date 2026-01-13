@@ -104,7 +104,7 @@ const FeatureStrip = () => {
   return (
     <section className="w-full bg-[#F6EFE7]">
       <div className="mx-auto flex min-h-[110px] w-full max-w-[1480px] items-center px-[40px] py-[24px]">
-        <div className="grid w-full items-center gap-x-[48px] gap-y-[24px] text-[#6F5F52] md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid w-full items-center gap-x-[32px] gap-y-[24px] text-[#6F5F52] md:grid-cols-2 lg:grid-cols-4">
           {features.map((feature) => (
             <div
               key={feature.title}
