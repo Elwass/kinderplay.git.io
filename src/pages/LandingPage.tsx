@@ -1,11 +1,13 @@
-import FeaturesBar from "../components/sections/FeaturesBar";
+import FeatureStrip from "../components/sections/FeatureStrip";
 import Hero from "../components/sections/Hero";
+import LearningFramework from "../components/sections/LearningFramework";
 
 const LandingPage = () => {
   return (
-    <div className="min-h-screen bg-[#FFFFFF] font-fredoka text-text">
+    <div className="min-h-screen w-full overflow-x-hidden bg-[#FFFFFF] font-fredoka text-text">
       <Hero />
-      <FeaturesBar />
+      <FeatureStrip />
+      <LearningFramework />
     </div>
   );
 };
