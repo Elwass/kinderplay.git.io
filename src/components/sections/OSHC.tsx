@@ -2,7 +2,7 @@ import oshcImage from "../../assets/Rectangle 31 (1).png";
 
 const OSHC = () => {
   return (
-    <section className="w-full bg-white py-[clamp(40px,6vw,96px)]">
+    <section className="section-padding w-full bg-white">
       <div className="mx-auto flex w-full max-w-[1440px] flex-col gap-[clamp(28px,4vw,56px)] px-6 md:px-12 lg:px-20">
         <div className="text-center text-[#6F5F52]">
           <h2 className="text-[clamp(28px,3.2vw,44px)] font-semibold leading-[1.2]">
