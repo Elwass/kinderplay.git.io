@@ -9,8 +9,8 @@ const Hero = () => {
         alt="Kinderra Play background"
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
-      <div className="relative z-10 mx-auto flex min-h-screen w-full max-w-[1920px] flex-col items-center px-6 pb-[clamp(32px,5vw,80px)] pt-[clamp(24px,4vw,56px)] xl:px-0">
-        <div className="flex w-full items-start justify-between">
+      <div className="relative z-10 mx-auto flex min-h-screen w-full max-w-[1600px] flex-col items-center px-6 pb-[clamp(32px,5vw,80px)] pt-[clamp(24px,4vw,56px)] sm:px-8 lg:px-16 xl:px-[120px]">
+        <div className="flex w-full flex-col items-center gap-[clamp(16px,3vw,28px)] lg:flex-row lg:items-start lg:justify-between">
           <img
             src={logo}
             alt="Kinderra Play"
@@ -145,7 +145,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="mt-[clamp(24px,4.5vw,64px)] flex flex-wrap items-center justify-center gap-[clamp(16px,3vw,44px)]">
+        <div className="mt-[clamp(24px,4.5vw,64px)] flex flex-col items-center justify-center gap-[clamp(16px,3vw,44px)] sm:flex-row">
           <button
             type="button"
             className="flex h-[clamp(60px,6vw,82px)] w-[clamp(220px,20vw,294px)] flex-col items-center justify-center rounded-[999px] bg-[#D98956] text-[clamp(16px,1.6vw,20px)] font-semibold leading-[1.3] text-white shadow-[0px_0px_10px_2px_rgba(255,210,49,0.5)]"
@@ -162,7 +162,7 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="mt-[clamp(32px,6vw,88px)] flex flex-wrap items-start justify-center gap-[clamp(20px,4vw,54px)] text-[#6F5F52]">
+        <div className="mt-[clamp(32px,6vw,88px)] flex flex-col items-center justify-center gap-[clamp(20px,4vw,54px)] text-[#6F5F52] lg:flex-row">
           <div className="text-center text-[clamp(22px,2.8vw,40px)] font-medium leading-[1.1]">
             1-5 y.o
             <div className="mt-[clamp(6px,1vw,8px)] text-[clamp(14px,1.6vw,20px)] font-normal leading-[1.2]">
