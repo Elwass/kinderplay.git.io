@@ -1,6 +1,7 @@
 import FeatureStrip from "../components/sections/FeatureStrip";
 import Hero from "../components/sections/Hero";
 import LearningFramework from "../components/sections/LearningFramework";
+import Readiness from "../components/sections/Readiness";
 
 const LandingPage = () => {
   return (
@@ -8,6 +9,7 @@ const LandingPage = () => {
       <Hero />
       <FeatureStrip />
       <LearningFramework />
+      <Readiness />
     </div>
   );
 };
