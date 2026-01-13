@@ -3,12 +3,13 @@ import logo from "../../assets/kinderra-logo.png";
 
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-screen overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBg})` }}
+    <section className="relative h-screen w-screen overflow-hidden">
+      <img
+        src={heroBg}
+        alt="Kinderra Play background"
+        className="absolute inset-0 h-full w-full object-cover"
       />
-      <div className="relative z-10 mx-auto min-h-screen w-full max-w-[1440px]">
+      <div className="relative z-10 h-full w-full">
         <img
           src={logo}
           alt="Kinderra Play"

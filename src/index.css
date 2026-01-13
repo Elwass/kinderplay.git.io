@@ -10,9 +10,10 @@
 }
 
 html,
-body {
-  height: auto;
-  overflow-y: auto;
+body,
+#root {
+  width: 100%;
+  height: 100%;
 }
 
 body {
@@ -38,11 +39,12 @@ body {
 
 @layer utilities {
   .ui-scale {
-    transform: scale(var(--ui-scale));
+    position: relative;
+    left: 50%;
     transform-origin: top center;
-    width: calc(100% / var(--ui-scale));
+    transform: translateX(-50%) scale(var(--ui-scale));
+    width: calc(100vw / var(--ui-scale));
     min-height: calc(100vh / var(--ui-scale));
-    margin: 0 auto;
     overflow-x: hidden;
   }
 }
