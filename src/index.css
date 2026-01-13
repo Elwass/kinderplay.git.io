@@ -6,6 +6,7 @@
   font-family: "Fredoka", system-ui, sans-serif;
   color: #6f5f52;
   background-color: #ffffff;
+  --section-pad-block: clamp(56px, 6vw, 96px);
 }
 
 html,
@@ -26,4 +27,47 @@ html {
 
 * {
   box-sizing: border-box;
+}
+
+.section-padding {
+  padding-block: var(--section-pad-block);
+}
+
+/* Smooth gradient overlay to avoid visible seams between sections. */
+.our-programs-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: clamp(180px, 22vw, 240px);
+  background:
+    radial-gradient(88% 90% at 50% 0%, rgba(214, 189, 164, 0.16) 0%, rgba(255, 255, 255, 0) 84%),
+    linear-gradient(
+      180deg,
+      rgba(214, 189, 164, 0.18) 0%,
+      rgba(236, 225, 212, 0.12) 38%,
+      rgba(255, 255, 255, 0.02) 82%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  filter: blur(12px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.readiness-section::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: clamp(120px, 18vw, 160px);
+  background: linear-gradient(
+    180deg,
+    rgba(246, 239, 231, 0) 0%,
+    rgba(246, 239, 231, 0.5) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
 }
