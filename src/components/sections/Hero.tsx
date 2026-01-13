@@ -3,25 +3,25 @@ import logo from "../../assets/kinderra-logo.png";
 
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-screen overflow-hidden">
+    <section className="relative w-screen min-h-screen overflow-hidden">
       <img
         src={heroBg}
         alt="Kinderra Play background"
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
-      <div className="relative z-10 mx-auto flex min-h-screen w-full max-w-[1920px] flex-col items-center px-6 pb-[clamp(32px,5vw,80px)] pt-[clamp(24px,4vw,56px)] lg:px-16">
-        <div className="flex w-full flex-col items-center gap-[clamp(16px,3vw,28px)] lg:flex-row lg:items-start lg:justify-between">
+      <div className="relative z-10 mx-auto flex min-h-screen w-full max-w-[1480px] flex-col items-center px-6 pb-[clamp(32px,5vw,80px)] pt-[clamp(28px,4vw,56px)] lg:px-16 xl:px-10">
+        <div className="grid w-full grid-cols-1 items-center gap-[clamp(16px,2.5vw,24px)] sm:grid-cols-[auto_1fr_auto] sm:gap-[clamp(12px,2vw,20px)]">
           <img
             src={logo}
             alt="Kinderra Play"
-            className="h-[clamp(150px,18vw,231px)] w-[clamp(120px,14vw,185px)] object-contain"
+            className="h-[clamp(120px,12vw,170px)] w-[clamp(120px,12vw,170px)] justify-self-center object-contain sm:justify-self-start"
           />
 
-          <div className="flex flex-1 items-center justify-center gap-[clamp(12px,2vw,18px)]">
+          <div className="flex items-center justify-center gap-[clamp(10px,1.6vw,16px)] justify-self-center">
             <button
               type="button"
               aria-label="Previous announcement"
-              className="h-[clamp(10px,1.2vw,12px)] w-[clamp(10px,1.2vw,12px)] text-[#D98956] opacity-[0.75]"
+              className="h-[clamp(10px,1.1vw,12px)] w-[clamp(10px,1.1vw,12px)] text-[#D98956] opacity-[0.75]"
             >
               <svg
                 className="h-full w-full"
@@ -39,8 +39,8 @@ const Hero = () => {
               </svg>
             </button>
 
-            <div className="relative flex h-[clamp(48px,4.5vw,61px)] w-[clamp(320px,45vw,686px)] items-center justify-center rounded-[999px] bg-[#D98956] text-[#FFFFFF]">
-              <div className="absolute left-[clamp(18px,2.2vw,34px)] top-1/2 h-[clamp(16px,1.6vw,20px)] w-[clamp(14px,1.4vw,18px)] -translate-y-1/2">
+            <div className="relative flex h-[clamp(46px,4vw,60px)] w-[clamp(280px,40vw,640px)] items-center justify-center rounded-[999px] bg-[#D98956] text-[#FFFFFF]">
+              <div className="absolute left-[clamp(16px,1.8vw,28px)] top-1/2 h-[clamp(16px,1.5vw,20px)] w-[clamp(14px,1.3vw,18px)] -translate-y-1/2">
                 <svg
                   className="h-full w-full"
                   viewBox="0 0 20 20"
@@ -62,7 +62,7 @@ const Hero = () => {
                   />
                 </svg>
               </div>
-              <p className="px-[clamp(56px,6vw,90px)] text-[clamp(12px,1.4vw,17px)] leading-[1.25]">
+              <p className="whitespace-nowrap px-[clamp(48px,5.5vw,80px)] text-[clamp(12px,1.2vw,16px)] leading-[1.2]">
                 JOIN OUR TRIAL CLASS &amp; STORY BOOK PLAYDATE{" "}
                 <span className="font-semibold">ON JANUARY 17 &amp; 24!</span>
               </p>
@@ -71,7 +71,7 @@ const Hero = () => {
             <button
               type="button"
               aria-label="Next announcement"
-              className="h-[clamp(10px,1.2vw,12px)] w-[clamp(10px,1.2vw,12px)] text-[#D98956] opacity-[0.75]"
+              className="h-[clamp(10px,1.1vw,12px)] w-[clamp(10px,1.1vw,12px)] text-[#D98956] opacity-[0.75]"
             >
               <svg
                 className="h-full w-full"
@@ -92,9 +92,9 @@ const Hero = () => {
 
           <button
             type="button"
-            className="flex h-[clamp(36px,3.4vw,45px)] w-[clamp(140px,12vw,181px)] items-center justify-center gap-[clamp(6px,1vw,10px)] rounded-[999px] border-[3px] border-[#6F5F52] bg-transparent"
+            className="flex h-[clamp(36px,3.2vw,45px)] w-[clamp(140px,11vw,181px)] items-center justify-center gap-[clamp(6px,1vw,10px)] justify-self-center rounded-[999px] border-[3px] border-[#6F5F52] bg-transparent sm:justify-self-end"
           >
-            <span className="text-[clamp(16px,1.6vw,24px)] font-semibold uppercase text-[#6F5F52]">
+            <span className="text-[clamp(16px,1.5vw,24px)] font-semibold uppercase text-[#6F5F52]">
               Register
             </span>
             <svg
@@ -114,11 +114,11 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="mt-[clamp(40px,7vw,120px)] flex w-full flex-col items-center text-center">
-          <h1 className="text-[clamp(36px,4.5vw,64px)] font-semibold leading-[1.1] text-[#6F5F52]">
+        <div className="mt-[clamp(36px,6vw,96px)] flex w-full flex-col items-center text-center">
+          <h1 className="text-[clamp(32px,3.4vw,64px)] font-semibold leading-[1.1] text-[#6F5F52]">
             Early Learning Center
           </h1>
-          <h2 className="mt-[clamp(6px,1.4vw,16px)] text-[clamp(22px,2.6vw,40px)] font-medium leading-[1.2] text-[#6F5F52]">
+          <h2 className="mt-[clamp(6px,1.2vw,14px)] text-[clamp(18px,1.6vw,32px)] font-medium leading-[1.2] text-[#6F5F52]">
             Play – Learn – Grow
           </h2>
         </div>
