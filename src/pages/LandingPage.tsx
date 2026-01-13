@@ -1,5 +1,6 @@
 import FeatureStrip from "../components/sections/FeatureStrip";
 import Hero from "../components/sections/Hero";
+import DaycareProgram from "../components/sections/DaycareProgram";
 import LearningFramework from "../components/sections/LearningFramework";
 import Readiness from "../components/sections/Readiness";
 
@@ -10,6 +11,7 @@ const LandingPage = () => {
       <FeatureStrip />
       <LearningFramework />
       <Readiness />
+      <DaycareProgram />
     </div>
   );
 };
