@@ -48,44 +48,35 @@ const LearningFramework = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-[clamp(14px,2vw,22px)] text-[#6F5F52]">
-            <p className="text-[clamp(15px,1.1vw,18px)] font-semibold leading-[1.6]">
+          <div className="max-w-[520px] text-[#6F5F52]">
+            <p className="text-[20px] font-semibold leading-[28px]">
               At Kinderra Play, learning through play is never random.
             </p>
-            <p className="text-[clamp(14px,1.05vw,17px)] leading-[1.65]">
+            <p className="mt-[22px] text-[16px] leading-[28px]">
               Our Play to Readiness Pathway is designed to ensure children enjoy learning
               while steadily developing the skills they need for both school readiness and
               life readiness.
             </p>
-            <h3 className="text-[clamp(15px,1.1vw,18px)] font-semibold leading-[1.5]">
+            <h3 className="mt-[28px] text-[18px] font-semibold leading-[26px]">
               What Children Build at Kinderra :
             </h3>
-            <ul className="flex flex-col gap-[clamp(10px,1.4vw,14px)] text-[clamp(14px,1.05vw,17px)] leading-[1.6]">
-              <li className="flex items-start gap-3">
-                <span className="mt-[9px] h-[6px] w-[6px] rounded-full bg-[#6F5F52]" />
-                <span>
-                  <span className="font-semibold">Independence</span> – managing
-                  routines, self-care, and dailychoices
-                </span>
+            <ul className="mt-[18px] list-disc space-y-[14px] pl-[18px] text-[16px] leading-[28px]">
+              <li>
+                <span className="font-semibold">Independence</span> – managing routines,
+                self-care, and dailychoices
               </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-[9px] h-[6px] w-[6px] rounded-full bg-[#6F5F52]" />
-                <span>
-                  <span className="font-semibold">Confidence</span> – expressing ideas,
-                  trying new things, and speaking in groups
-                </span>
+              <li>
+                <span className="font-semibold">Confidence</span> – expressing ideas,
+                trying new things, and speaking in groups
               </li>
-              <li className="flex items-start gap-3">
-                <span className="mt-[9px] h-[6px] w-[6px] rounded-full bg-[#6F5F52]" />
-                <span>
-                  <span className="font-semibold">Communication</span> – bilingual
-                  language development in Englishand Bahasa Indonesia
-                </span>
+              <li>
+                <span className="font-semibold">Communication</span> – bilingual language
+                development in Englishand Bahasa Indonesia
               </li>
             </ul>
-            <p className="text-[clamp(14px,1.05vw,17px)] leading-[1.65]">
-              Each activity is guided by trained educators with clear goals, milestones
-              , and outcomes.
+            <p className="mt-[24px] text-[16px] leading-[28px]">
+              Each activity is guided by trained educators with clear goals, milestones ,
+              and outcomes.
             </p>
           </div>
         </div>
