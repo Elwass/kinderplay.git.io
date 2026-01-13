@@ -81,7 +81,7 @@ const features = [
     ),
   },
   {
-    title: "Premium Experience - Smart Pricing",
+    title: "Premium Experience – Smart Pricing",
     icon: (
       <svg
         className="h-[28px] w-[28px]"
@@ -100,15 +100,18 @@ const features = [
   },
 ];
 
-const FeaturesBar = () => {
+const FeatureStrip = () => {
   return (
     <section className="w-full bg-[#F6EFE7]">
-      <div className="mx-auto w-full max-w-[1440px] px-[48px] py-[20px]">
-        <div className="grid gap-[24px] text-[#6F5F52] md:grid-cols-2 lg:grid-cols-4">
+      <div className="mx-auto flex min-h-[110px] w-full max-w-[1480px] items-center px-[40px] py-[24px]">
+        <div className="grid w-full items-center gap-x-[48px] gap-y-[24px] text-[#6F5F52] md:grid-cols-2 lg:grid-cols-4">
           {features.map((feature) => (
-            <div key={feature.title} className="flex items-center gap-[12px]">
+            <div
+              key={feature.title}
+              className="flex items-center gap-[16px] text-[16px] leading-[22px]"
+            >
               <div className="text-[#6F5F52]">{feature.icon}</div>
-              <p className="text-[14px] leading-[20px]">{feature.title}</p>
+              <p className="font-medium">{feature.title}</p>
             </div>
           ))}
         </div>
@@ -117,4 +120,4 @@ const FeaturesBar = () => {
   );
 };
 
-export default FeaturesBar;
+export default FeatureStrip;
