@@ -114,73 +114,75 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="mt-[clamp(36px,6vw,96px)] flex w-full flex-col items-center text-center">
-          <h1 className="text-[clamp(32px,3.4vw,64px)] font-semibold leading-[1.1] text-[#6F5F52]">
-            Early Learning Center
-          </h1>
-          <h2 className="mt-[clamp(6px,1.2vw,14px)] text-[clamp(18px,1.6vw,32px)] font-medium leading-[1.2] text-[#6F5F52]">
-            Play – Learn – Grow
-          </h2>
-        </div>
-
-        <div className="mt-[clamp(18px,3.5vw,44px)] flex w-full max-w-[900px] flex-col items-center gap-[clamp(10px,2.2vw,20px)] text-center text-[clamp(14px,1.6vw,20px)] leading-[1.5] text-[#6F5F52]">
-          <p>
-            <span className="font-semibold">
-              Kinderra Play, a premium early learning center
-            </span>{" "}
-            supporting the development of{" "}
-            <span className="font-semibold">confident</span>,{" "}
-            <span className="font-semibold">independent</span>, and{" "}
-            <span className="font-semibold">communicative</span> children through guided{" "}
-            <span className="font-semibold">play, discovery, and joy.</span>
-          </p>
-          <p>
-            Inspired by the{" "}
-            <span className="font-semibold">
-              Australian Early Years Learning Framework
-            </span>
-            , Kinderra Play delivers a calm, intentional, and professionally designed
-            and structured learning experience—where play is purposeful and every day
-            builds clear progress.
-          </p>
-        </div>
-
-        <div className="mt-[clamp(24px,4.5vw,64px)] flex flex-col items-center justify-center gap-[clamp(16px,3vw,44px)] sm:flex-row">
-          <button
-            type="button"
-            className="flex h-[clamp(60px,6vw,82px)] w-[clamp(220px,20vw,294px)] flex-col items-center justify-center rounded-[999px] bg-[#D98956] text-[clamp(16px,1.6vw,20px)] font-semibold leading-[1.3] text-white shadow-[0px_0px_10px_2px_rgba(255,210,49,0.5)]"
-          >
-            <span>Register for a</span>
-            <span>Trial Class</span>
-          </button>
-          <button
-            type="button"
-            className="flex h-[clamp(60px,6vw,82px)] w-[clamp(220px,20vw,294px)] flex-col items-center justify-center rounded-[999px] border-[3px] border-[#D98956] bg-transparent text-[clamp(16px,1.6vw,20px)] font-medium leading-[1.3] text-[#D98956] shadow-[0px_0px_8px_1px_rgba(217,137,86,0.2)]"
-          >
-            <span>Get Enrollment</span>
-            <span>Information</span>
-          </button>
-        </div>
-
-        <div className="mt-[clamp(32px,6vw,88px)] flex flex-col items-center justify-center gap-[clamp(20px,4vw,54px)] text-[#6F5F52] lg:flex-row">
-          <div className="text-center text-[clamp(22px,2.8vw,40px)] font-medium leading-[1.1]">
-            1-5 y.o
-            <div className="mt-[clamp(6px,1vw,8px)] text-[clamp(14px,1.6vw,20px)] font-normal leading-[1.2]">
-              Age
-            </div>
+        <div className="relative -translate-y-10 lg:-translate-y-16 2xl:-translate-y-20">
+          <div className="mt-[clamp(36px,6vw,96px)] flex w-full flex-col items-center text-center">
+            <h1 className="text-[clamp(32px,3.4vw,64px)] font-semibold leading-[1.1] text-[#6F5F52]">
+              Early Learning Center
+            </h1>
+            <h2 className="mt-[clamp(6px,1.2vw,14px)] text-[clamp(18px,1.6vw,32px)] font-medium leading-[1.2] text-[#6F5F52]">
+              Play – Learn – Grow
+            </h2>
           </div>
-          <div className="hidden h-[clamp(40px,4.5vw,53px)] w-[3px] rounded-[31px] bg-[#6F5F52] lg:block" />
-          <div className="text-center text-[clamp(22px,2.8vw,40px)] font-medium leading-[1.1]">
-            Bilingual
-            <div className="mt-[clamp(6px,1vw,8px)] text-[clamp(14px,1.6vw,20px)] font-normal leading-[1.2]">
-              Language
-            </div>
+
+          <div className="mt-[clamp(18px,3.5vw,44px)] flex w-full max-w-[900px] flex-col items-center gap-[clamp(10px,2.2vw,20px)] text-center text-[clamp(14px,1.6vw,20px)] leading-[1.5] text-[#6F5F52]">
+            <p>
+              <span className="font-semibold">
+                Kinderra Play, a premium early learning center
+              </span>{" "}
+              supporting the development of{" "}
+              <span className="font-semibold">confident</span>,{" "}
+              <span className="font-semibold">independent</span>, and{" "}
+              <span className="font-semibold">communicative</span> children through guided{" "}
+              <span className="font-semibold">play, discovery, and joy.</span>
+            </p>
+            <p>
+              Inspired by the{" "}
+              <span className="font-semibold">
+                Australian Early Years Learning Framework
+              </span>
+              , Kinderra Play delivers a calm, intentional, and professionally designed
+              and structured learning experience—where play is purposeful and every day
+              builds clear progress.
+            </p>
           </div>
-          <div className="hidden h-[clamp(40px,4.5vw,53px)] w-[3px] rounded-[31px] bg-[#6F5F52] lg:block" />
-          <div className="text-center text-[clamp(22px,2.8vw,40px)] font-medium leading-[1.1]">
-            Full &amp; Half Day Programs
-            <div className="mt-[clamp(6px,1vw,8px)] text-[clamp(14px,1.6vw,20px)] font-normal leading-[1.2]">
-              Program
+
+          <div className="mt-[clamp(24px,4.5vw,64px)] flex flex-col items-center justify-center gap-[clamp(16px,3vw,44px)] sm:flex-row">
+            <button
+              type="button"
+              className="flex h-[clamp(60px,6vw,82px)] w-[clamp(220px,20vw,294px)] flex-col items-center justify-center rounded-[999px] bg-[#D98956] text-[clamp(16px,1.6vw,20px)] font-semibold leading-[1.3] text-white shadow-[0px_0px_10px_2px_rgba(255,210,49,0.5)]"
+            >
+              <span>Register for a</span>
+              <span>Trial Class</span>
+            </button>
+            <button
+              type="button"
+              className="flex h-[clamp(60px,6vw,82px)] w-[clamp(220px,20vw,294px)] flex-col items-center justify-center rounded-[999px] border-[3px] border-[#D98956] bg-transparent text-[clamp(16px,1.6vw,20px)] font-medium leading-[1.3] text-[#D98956] shadow-[0px_0px_8px_1px_rgba(217,137,86,0.2)]"
+            >
+              <span>Get Enrollment</span>
+              <span>Information</span>
+            </button>
+          </div>
+
+          <div className="mt-[clamp(32px,6vw,88px)] flex flex-col items-center justify-center gap-[clamp(20px,4vw,54px)] text-[#6F5F52] lg:flex-row">
+            <div className="text-center text-[clamp(22px,2.8vw,40px)] font-medium leading-[1.1]">
+              1-5 y.o
+              <div className="mt-[clamp(6px,1vw,8px)] text-[clamp(14px,1.6vw,20px)] font-normal leading-[1.2]">
+                Age
+              </div>
+            </div>
+            <div className="hidden h-[clamp(40px,4.5vw,53px)] w-[3px] rounded-[31px] bg-[#6F5F52] lg:block" />
+            <div className="text-center text-[clamp(22px,2.8vw,40px)] font-medium leading-[1.1]">
+              Bilingual
+              <div className="mt-[clamp(6px,1vw,8px)] text-[clamp(14px,1.6vw,20px)] font-normal leading-[1.2]">
+                Language
+              </div>
+            </div>
+            <div className="hidden h-[clamp(40px,4.5vw,53px)] w-[3px] rounded-[31px] bg-[#6F5F52] lg:block" />
+            <div className="text-center text-[clamp(22px,2.8vw,40px)] font-medium leading-[1.1]">
+              Full &amp; Half Day Programs
+              <div className="mt-[clamp(6px,1vw,8px)] text-[clamp(14px,1.6vw,20px)] font-normal leading-[1.2]">
+                Program
+              </div>
             </div>
           </div>
         </div>
