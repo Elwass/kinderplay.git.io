@@ -36,8 +36,8 @@ html {
   right: 0;
   height: clamp(180px, 22vw, 240px);
   background:
-    radial-gradient(70% 60% at 50% 0%, rgba(215, 190, 165, 0.32) 0%, rgba(255, 255, 255, 0) 70%),
-    linear-gradient(180deg, rgba(215, 190, 165, 0.35) 0%, rgba(255, 255, 255, 0) 75%);
+    radial-gradient(80% 70% at 50% 0%, rgba(214, 189, 164, 0.24) 0%, rgba(255, 255, 255, 0) 72%),
+    linear-gradient(180deg, rgba(214, 189, 164, 0.28) 0%, rgba(255, 255, 255, 0) 80%);
   pointer-events: none;
   z-index: 0;
 }
