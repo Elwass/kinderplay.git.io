@@ -34,17 +34,17 @@ html {
   top: 0;
   left: 0;
   right: 0;
-  height: clamp(220px, 26vw, 280px);
+  height: clamp(200px, 24vw, 260px);
   background:
-    radial-gradient(90% 85% at 50% 0%, rgba(214, 189, 164, 0.2) 0%, rgba(255, 255, 255, 0) 80%),
+    radial-gradient(92% 90% at 50% 0%, rgba(214, 189, 164, 0.18) 0%, rgba(255, 255, 255, 0) 82%),
     linear-gradient(
       180deg,
-      rgba(214, 189, 164, 0.22) 0%,
-      rgba(236, 225, 212, 0.16) 38%,
-      rgba(255, 255, 255, 0.03) 82%,
+      rgba(214, 189, 164, 0.2) 0%,
+      rgba(236, 225, 212, 0.14) 42%,
+      rgba(255, 255, 255, 0.02) 84%,
       rgba(255, 255, 255, 0) 100%
     );
-  filter: blur(6px);
+  filter: blur(10px);
   pointer-events: none;
   z-index: 0;
 }
