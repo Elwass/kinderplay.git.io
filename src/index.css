@@ -34,10 +34,10 @@ html {
   top: 0;
   left: 0;
   right: 0;
-  height: clamp(180px, 22vw, 240px);
+  height: clamp(200px, 24vw, 260px);
   background:
-    radial-gradient(80% 70% at 50% 0%, rgba(214, 189, 164, 0.24) 0%, rgba(255, 255, 255, 0) 72%),
-    linear-gradient(180deg, rgba(214, 189, 164, 0.28) 0%, rgba(255, 255, 255, 0) 80%);
+    radial-gradient(90% 80% at 50% 0%, rgba(214, 189, 164, 0.2) 0%, rgba(255, 255, 255, 0) 78%),
+    linear-gradient(180deg, rgba(214, 189, 164, 0.22) 0%, rgba(255, 255, 255, 0) 85%);
   pointer-events: none;
   z-index: 0;
 }

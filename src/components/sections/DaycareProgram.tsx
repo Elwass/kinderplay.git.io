@@ -5,8 +5,8 @@ const DaycareProgram = () => {
   return (
     <section className="our-programs-section relative w-full overflow-hidden bg-white py-[clamp(56px,7vw,120px)]">
       <div className="relative mx-auto flex w-full max-w-[1440px] flex-col gap-[clamp(32px,4vw,60px)] px-6 md:px-12 lg:px-20">
-        <div className="relative z-10 flex min-h-[clamp(180px,22vw,240px)] flex-col items-center justify-center text-center text-[#6F5F52]">
-          <p className="text-[clamp(30px,3.6vw,48px)] font-semibold leading-[1.2] text-[#6F5F52]">
+        <div className="relative z-10 flex min-h-[clamp(200px,24vw,260px)] flex-col items-center justify-center text-center text-[#6F5F52]">
+          <p className="text-[clamp(32px,3.9vw,52px)] font-semibold leading-[1.2] text-[#6F5F52]">
             Our Programs
           </p>
           <h2 className="mt-[10px] text-[clamp(26px,2.6vw,36px)] font-semibold leading-[1.25]">
