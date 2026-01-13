@@ -3,12 +3,12 @@ import daycareSmall from "../../assets/Rectangle 45.png";
 
 const DaycareProgram = () => {
   return (
-    <section className="relative w-full overflow-hidden bg-[#F8F1EA] py-[clamp(56px,7vw,120px)]">
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-[280px] bg-gradient-to-b from-[#E3D2C2] via-[#F1E6DB] to-transparent" />
+    <section className="relative w-full overflow-hidden bg-[#FBF5EE] py-[clamp(56px,7vw,120px)]">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(120%_70%_at_50%_0%,#E7D8C8_0%,#F3E9DE_35%,#FBF5EE_70%,#FBF5EE_100%)]" />
 
       <div className="relative mx-auto flex w-full max-w-[1440px] flex-col gap-[clamp(32px,4vw,60px)] px-6 md:px-12 lg:px-20">
-        <div className="text-center text-[#6F5F52]">
-          <p className="text-[clamp(22px,2.6vw,36px)] font-semibold leading-[1.2] text-[#6F5F52]">
+        <div className="relative z-10 text-center text-[#6F5F52]">
+          <p className="text-[clamp(26px,3.1vw,42px)] font-semibold leading-[1.2] text-[#6F5F52]">
             Our Programs
           </p>
           <h2 className="mt-[10px] text-[clamp(26px,2.6vw,36px)] font-semibold leading-[1.25]">
