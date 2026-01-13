@@ -164,7 +164,7 @@ const Hero = () => {
             </button>
           </div>
 
-          <div className="mt-[clamp(16px,3vw,48px)] flex flex-col items-center justify-center gap-[clamp(16px,3vw,44px)] text-[#6F5F52] lg:flex-row">
+          <div className="mb-[clamp(24px,4vw,64px)] mt-[clamp(16px,3vw,48px)] flex flex-col items-center justify-center gap-[clamp(16px,3vw,44px)] text-[#6F5F52] lg:flex-row">
             <div className="text-center text-[clamp(22px,2.8vw,40px)] font-medium leading-[1.1]">
               1-5 y.o
               <div className="mt-[clamp(6px,1vw,8px)] text-[clamp(14px,1.6vw,20px)] font-normal leading-[1.2]">
