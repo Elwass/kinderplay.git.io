@@ -41,7 +41,7 @@ body {
     position: relative;
     left: 50%;
     transform-origin: top center;
-    transform: translateX(-50%) scale(var(--ui-scale));
+    transform: scale(var(--ui-scale)) translateX(-50%);
     width: calc(100vw / var(--ui-scale));
     min-height: calc(100vh / var(--ui-scale));
     overflow-x: hidden;
