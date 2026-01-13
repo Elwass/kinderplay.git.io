@@ -9,7 +9,7 @@ const Hero = () => {
         alt="Kinderra Play background"
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
-      <div className="relative z-10 mx-auto flex min-h-screen w-full max-w-[1600px] flex-col items-center px-6 pb-[clamp(32px,5vw,80px)] pt-[clamp(24px,4vw,56px)] sm:px-8 lg:px-16 xl:px-[120px]">
+      <div className="relative z-10 mx-auto flex min-h-screen w-full max-w-[1920px] flex-col items-center px-6 pb-[clamp(32px,5vw,80px)] pt-[clamp(24px,4vw,56px)] lg:px-16">
         <div className="flex w-full flex-col items-center gap-[clamp(16px,3vw,28px)] lg:flex-row lg:items-start lg:justify-between">
           <img
             src={logo}
