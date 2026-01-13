@@ -27,3 +27,17 @@ html {
 * {
   box-sizing: border-box;
 }
+
+.our-programs-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: clamp(180px, 22vw, 240px);
+  background:
+    radial-gradient(70% 60% at 50% 0%, rgba(215, 190, 165, 0.32) 0%, rgba(255, 255, 255, 0) 70%),
+    linear-gradient(180deg, rgba(215, 190, 165, 0.35) 0%, rgba(255, 255, 255, 0) 75%);
+  pointer-events: none;
+  z-index: 0;
+}
