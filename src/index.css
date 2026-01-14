@@ -292,3 +292,134 @@ html {
     padding: 70px 18px 60px;
   }
 }
+
+.why-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #cfe1ec;
+  background-image: linear-gradient(
+      90deg,
+      rgba(207, 225, 236, 1) 0%,
+      rgba(207, 225, 236, 1) 40%,
+      rgba(207, 225, 236, 0.9) 55%,
+      rgba(207, 225, 236, 0.55) 70%,
+      rgba(207, 225, 236, 0) 100%
+    ),
+    var(--why-bg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  background-position: center, center right;
+}
+
+.why-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 86px 24px 90px;
+}
+
+.why-title {
+  margin: 0 0 44px;
+  color: #6b5a4a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.05;
+}
+
+.why-title span {
+  display: block;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  max-width: 760px;
+}
+
+.why-col {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.why-col-right {
+  padding-top: 10px;
+}
+
+.why-feature {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.why-icon {
+  width: 34px;
+  height: 34px;
+  color: #6b5a4a;
+  flex: 0 0 auto;
+  margin-top: 2px;
+}
+
+.why-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.why-featureTitle {
+  margin: 0 0 6px;
+  color: #6b5a4a;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.15;
+}
+
+.why-featureTitle span {
+  display: block;
+}
+
+.why-desc {
+  margin: 0;
+  color: #6b5a4a;
+  font-size: 10.5px;
+  line-height: 1.55;
+  max-width: 260px;
+}
+
+@media (max-width: 1024px) {
+  .why-section {
+    background-image: linear-gradient(
+        180deg,
+        rgba(207, 225, 236, 1) 0%,
+        rgba(207, 225, 236, 0.95) 55%,
+        rgba(207, 225, 236, 0.8) 100%
+      ),
+      var(--why-bg);
+    background-position: center, center;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 34px;
+    max-width: 700px;
+  }
+
+  .why-desc {
+    max-width: 520px;
+  }
+}
+
+@media (max-width: 640px) {
+  .why-inner {
+    padding: 64px 18px 70px;
+  }
+
+  .why-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .why-col {
+    gap: 28px;
+  }
+}

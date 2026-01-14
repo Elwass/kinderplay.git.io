@@ -6,6 +6,7 @@ import OSHC from "../components/sections/OSHC";
 import Readiness from "../components/sections/Readiness";
 import TrialProgram from "../components/sections/TrialProgram";
 import WeekendThematicClasses from "../components/sections/WeekendThematicClasses";
+import WhyChoose from "../components/sections/WhyChoose";
 
 const LandingPage = () => {
   return (
@@ -18,6 +19,7 @@ const LandingPage = () => {
       <OSHC />
       <WeekendThematicClasses />
       <TrialProgram />
+      <WhyChoose />
     </div>
   );
 };
