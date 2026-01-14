@@ -1,4 +1,4 @@
-import bgImg from "../../assets/5 Fun Educational Indoor Activities for Children 1.png";
+import "./WhyChoose.css";
 
 export default function WhyChoose() {
   return (
@@ -46,9 +46,7 @@ export default function WhyChoose() {
           </div>
         </div>
 
-        <div className="why-right" aria-hidden="true">
-          <img className="why-img" src={bgImg} alt="" />
-        </div>
+        <div className="why-right" aria-hidden="true" />
       </div>
     </section>
   );
@@ -63,19 +61,19 @@ function Feature({ title, desc, icon }: { title: string; desc: string; icon: str
             <path
               d="M12 2l1.4 5.3L19 9l-5.6 1.7L12 16l-1.4-5.3L5 9l5.6-1.7L12 2z"
               stroke="currentColor"
-              strokeWidth="1.8"
+              strokeWidth="2"
               strokeLinejoin="round"
             />
           </svg>
         )}
         {icon === "globe" && (
           <svg viewBox="0 0 24 24" className="why-svg" fill="none">
-            <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.8" />
-            <path d="M3 12h18" stroke="currentColor" strokeWidth="1.8" />
+            <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="2" />
+            <path d="M3 12h18" stroke="currentColor" strokeWidth="2" />
             <path
               d="M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"
               stroke="currentColor"
-              strokeWidth="1.8"
+              strokeWidth="2"
               strokeLinecap="round"
             />
           </svg>
@@ -85,13 +83,13 @@ function Feature({ title, desc, icon }: { title: string; desc: string; icon: str
             <path
               d="M3 9l9-4 9 4-9 4-9-4z"
               stroke="currentColor"
-              strokeWidth="1.8"
+              strokeWidth="2"
               strokeLinejoin="round"
             />
             <path
               d="M7 11v5c0 .6 2.2 2 5 2s5-1.4 5-2v-5"
               stroke="currentColor"
-              strokeWidth="1.8"
+              strokeWidth="2"
               strokeLinecap="round"
             />
           </svg>
@@ -101,19 +99,19 @@ function Feature({ title, desc, icon }: { title: string; desc: string; icon: str
             <path
               d="M16 11a3 3 0 1 0-6 0"
               stroke="currentColor"
-              strokeWidth="1.8"
+              strokeWidth="2"
               strokeLinecap="round"
             />
             <path
               d="M4 20c.7-3.4 3.5-5 8-5s7.3 1.6 8 5"
               stroke="currentColor"
-              strokeWidth="1.8"
+              strokeWidth="2"
               strokeLinecap="round"
             />
             <path
               d="M7.5 10a2.5 2.5 0 1 0-5 0"
               stroke="currentColor"
-              strokeWidth="1.8"
+              strokeWidth="2"
               strokeLinecap="round"
             />
           </svg>
@@ -123,13 +121,13 @@ function Feature({ title, desc, icon }: { title: string; desc: string; icon: str
             <path
               d="M4 11l8-7 8 7v9H4v-9z"
               stroke="currentColor"
-              strokeWidth="1.8"
+              strokeWidth="2"
               strokeLinejoin="round"
             />
             <path
               d="M10 20v-6h4v6"
               stroke="currentColor"
-              strokeWidth="1.8"
+              strokeWidth="2"
               strokeLinecap="round"
             />
           </svg>
