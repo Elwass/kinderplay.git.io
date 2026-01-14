@@ -517,7 +517,7 @@ html {
 }
 
 .balanced-rhythm__container {
-  max-width: 900px;
+  max-width: 1040px;
   margin: 0 auto;
   padding: 48px 24px 92px;
   text-align: center;
@@ -526,7 +526,7 @@ html {
 
 .balanced-rhythm__title {
   margin: 0 0 16px;
-  font-size: 44px;
+  font-size: 48px;
   line-height: 1.1;
   font-weight: 800;
 }
@@ -537,14 +537,14 @@ html {
 
 .balanced-rhythm__subtitle {
   margin: 0 auto 36px;
-  font-size: 12.5px;
+  font-size: 14px;
   line-height: 1.6;
   color: rgba(107, 90, 74, 0.8);
 }
 
 .balanced-rhythm__image {
-  width: min(900px, 90vw);
-  max-width: 900px;
+  width: min(1020px, 94vw);
+  max-width: 1020px;
   margin: 0 auto 26px;
 }
 
@@ -557,7 +557,7 @@ html {
 
 .balanced-rhythm__note {
   margin: 0 auto;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.6;
   color: rgba(107, 90, 74, 0.85);
 }
