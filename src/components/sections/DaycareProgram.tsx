@@ -18,7 +18,7 @@ const DaycareProgram = () => {
         aria-hidden="true"
         className="pointer-events-none absolute bottom-[48px] right-[56px] hidden h-[150px] w-[150px] opacity-45 lg:block"
       />
-      <div className="relative mx-auto flex w-full max-w-[1440px] flex-col gap-[clamp(28px,3.6vw,52px)] px-6 md:px-12 lg:px-20">
+      <div className="section-container relative flex w-full flex-col gap-10 lg:gap-12">
         <div className="flex min-h-[clamp(140px,16vw,180px)] flex-col items-center justify-center text-center text-[#6F5F52]">
           <p className="text-[clamp(32px,3.9vw,52px)] font-semibold leading-[1.2] text-[#6F5F52]">
             Our Programs
@@ -28,8 +28,8 @@ const DaycareProgram = () => {
           </h2>
         </div>
 
-        <div className="grid items-start gap-[clamp(28px,4vw,56px)] lg:grid-cols-[minmax(0,620px)_minmax(0,1fr)]">
-          <div className="flex flex-col gap-[clamp(20px,3vw,36px)]">
+        <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,620px)_minmax(0,1fr)] lg:gap-12">
+          <div className="flex flex-col gap-6 lg:gap-8">
             <div className="h-[clamp(260px,30vw,380px)] w-full overflow-hidden rounded-[32px] bg-white">
               <img
                 src={daycareMain}
@@ -38,7 +38,7 @@ const DaycareProgram = () => {
               />
             </div>
 
-            <div className="flex flex-col gap-[clamp(16px,2.5vw,28px)] lg:flex-row lg:items-start lg:justify-between">
+            <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between lg:gap-6">
               <div className="max-w-[360px] text-[#6F5F52]">
                 <h3 className="text-[18px] font-semibold leading-[26px]">
                   What makes our daycare different:

@@ -2,8 +2,8 @@ import group22 from "../../assets/Group 22.png";
 
 const BalancedDailyRhythm = () => {
   return (
-    <section className="balanced-rhythm">
-      <div className="balanced-rhythm__container">
+    <section className="balanced-rhythm section-padding">
+      <div className="balanced-rhythm__container section-container">
         <h2 className="balanced-rhythm__title">
           A <span>Balanced</span> Daily Rhythm
         </h2>

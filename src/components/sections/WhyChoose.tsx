@@ -4,12 +4,12 @@ import "./WhyChoose.css";
 export default function WhyChoose() {
   return (
     <section
-      className="why-choose whychoose--show-bg"
+      className="why-choose whychoose--show-bg section-padding"
       style={{ ["--whychoose-bg" as never]: `url(${educationalBg})` }}
     >
       <div className="why-split">
         <div className="why-left">
-          <div className="why-inner">
+          <div className="why-inner section-container">
             <h2 className="why-title">
               <span>Why Choose</span>
               <span>Kinderra Play?</span>

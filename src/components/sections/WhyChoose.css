@@ -1,6 +1,5 @@
 .why-choose {
   width: 100%;
-  min-height: 740px;
   position: relative;
   overflow: hidden;
   background-color: transparent;
@@ -10,7 +9,6 @@
 .why-split {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 740px;
 }
 
 .why-left {
@@ -28,17 +26,17 @@
 }
 
 .why-inner {
-  max-width: 780px;
-  padding: 105px 72px 90px 110px;
+  max-width: 720px;
+  padding: 0;
   position: relative;
   z-index: 1;
 }
 
 .why-title {
-  margin: 0 0 46px;
+  margin: 0 0 32px;
   color: #6b5a4a;
   font-weight: 800;
-  font-size: 56px;
+  font-size: 52px;
   line-height: 1.05;
 }
 
@@ -49,13 +47,13 @@
 .why-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 90px;
+  gap: 40px;
 }
 
 .why-col {
   display: flex;
   flex-direction: column;
-  gap: 44px;
+  gap: 28px;
 }
 
 .why-col-right {
@@ -96,38 +94,44 @@
 .why-desc {
   margin: 0;
   color: rgba(107, 90, 74, 0.75);
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.55;
 }
 
 @media (max-width: 1024px) {
+  .why-title {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 768px) {
   .why-split {
     grid-template-columns: 1fr;
-    min-height: 0;
   }
 
   .why-right {
     min-height: 320px;
   }
 
-  .why-inner {
-    max-width: 900px;
-    padding: 70px 28px;
-  }
-
   .why-grid {
-    grid-template-columns: 1fr;
-    gap: 34px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
   }
 }
 
 @media (max-width: 640px) {
   .why-title {
-    font-size: 36px;
-    margin-bottom: 28px;
+    font-size: 34px;
+    margin-bottom: 24px;
   }
 
   .why-col {
-    gap: 28px;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .why-grid {
+    grid-template-columns: 1fr;
   }
 }

@@ -13,7 +13,7 @@ const images = [le1, le2, le3, le4, le5, le6, le7, le8];
 
 export default function LearningEnvironment() {
   return (
-    <section className="learning-env">
+    <section className="learning-env section-padding">
       <img
         src={decoLeft}
         alt=""
@@ -27,7 +27,7 @@ export default function LearningEnvironment() {
         className="learning-env__decor learning-env__decor--right"
       />
 
-      <div className="learning-env__container">
+      <div className="learning-env__container section-container">
         <h2 className="learning-env__title">
           Our Learning <span>Environment</span>
         </h2>

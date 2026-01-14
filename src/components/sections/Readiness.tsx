@@ -3,19 +3,19 @@ import readinessImg from "../../assets/Rectangle 41 (1).png";
 const Readiness = () => {
   return (
     <section className="section-padding w-full bg-[#F6EFE7]">
-      <div className="mx-auto flex w-full max-w-[1440px] flex-col gap-[clamp(28px,4vw,52px)] px-6 md:px-12 lg:px-20">
+      <div className="section-container flex w-full flex-col gap-10 lg:gap-12">
         <div className="text-center text-[#6F5F52]">
-          <h2 className="text-[clamp(28px,3.2vw,48px)] font-semibold leading-[1.2]">
+          <h2 className="text-[clamp(34px,3.2vw,48px)] font-semibold leading-[1.2]">
             Apa yang dimaksud dengan{" "}
             <span className="text-[#D98956]">Readiness</span> di sini?
           </h2>
-          <p className="mx-auto mt-[14px] max-w-[720px] text-[clamp(14px,1.1vw,18px)] leading-[1.5]">
+          <p className="mx-auto mt-[14px] max-w-[640px] text-[clamp(14px,1.1vw,18px)] leading-[1.5]">
             Readiness di Kinderra adalah kesiapan anak untuk belajar &amp; hidup,
             bukan sekedar bisa membaca atau menulis lebih cepat.
           </p>
         </div>
 
-        <div className="grid items-start gap-[clamp(28px,4vw,52px)] lg:grid-cols-[minmax(0,520px)_minmax(0,1fr)] lg:items-center">
+        <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,520px)_minmax(0,1fr)] lg:items-center lg:gap-12">
           <div className="h-[clamp(260px,30vw,360px)] w-full overflow-hidden rounded-[32px] bg-white">
             <img
               src={readinessImg}
@@ -24,7 +24,7 @@ const Readiness = () => {
             />
           </div>
 
-          <div className="grid gap-[clamp(16px,2vw,28px)] sm:grid-cols-2">
+          <div className="grid gap-6 sm:grid-cols-2">
             <div className="flex flex-col gap-3 text-[#6F5F52]">
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[#FAD6D2] text-[#F26B5B]">
                 <svg viewBox="0 0 24 24" className="h-6 w-6 fill-current">

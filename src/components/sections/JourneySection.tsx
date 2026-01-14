@@ -4,8 +4,8 @@ import "./JourneySection.css";
 
 const JourneySection = () => {
   return (
-    <section className="journey-section">
-      <div className="journey-section__content">
+    <section className="journey-section section-padding">
+      <div className="journey-section__content section-container">
         <h2 className="journey-section__title">
           <span className="journey-section__title-brown">Your </span>
           <span className="journey-section__title-orange">Kinderra</span>

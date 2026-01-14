@@ -3,7 +3,7 @@ import oshcImage from "../../assets/Rectangle 31 (1).png";
 const OSHC = () => {
   return (
     <section className="section-padding w-full bg-white">
-      <div className="mx-auto flex w-full max-w-[1440px] flex-col gap-[clamp(28px,4vw,56px)] px-6 md:px-12 lg:px-20">
+      <div className="section-container flex w-full flex-col gap-10 lg:gap-12">
         <div className="text-center text-[#6F5F52]">
           <h2 className="text-[clamp(28px,3.2vw,44px)] font-semibold leading-[1.2]">
             <span className="text-[#D98956]">Outside</span> School Hours Care
@@ -11,7 +11,7 @@ const OSHC = () => {
           </h2>
         </div>
 
-        <div className="grid items-center gap-[clamp(28px,4vw,56px)] lg:grid-cols-[minmax(0,1fr)_minmax(0,520px)]">
+        <div className="grid items-center gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,520px)] lg:gap-12">
           <div className="order-2 flex flex-col text-[#6F5F52] lg:order-1">
             <h3 className="text-[20px] font-semibold leading-[28px]">
               Afternoon Program | 5.00–7.00 PM
