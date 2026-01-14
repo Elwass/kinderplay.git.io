@@ -10,6 +10,7 @@ import WeekendThematicClasses from "../components/sections/WeekendThematicClasse
 import WhyChoose from "../components/sections/WhyChoose";
 import LearningEnvironment from "../components/sections/LearningEnvironment";
 import JourneySection from "../components/sections/JourneySection";
+import CTAPlusFooter from "../components/sections/CTAPlusFooter";
 
 const LandingPage = () => {
   return (
@@ -28,6 +29,7 @@ const LandingPage = () => {
       </div>
       <BalancedDailyRhythm />
       <JourneySection />
+      <CTAPlusFooter />
     </div>
   );
 };
