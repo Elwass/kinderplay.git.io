@@ -3,8 +3,8 @@ import vector2 from "../../assets/Vector (2).png";
 
 export default function WeekendThematicClasses() {
   return (
-    <section className="weekend-section">
-      <div className="weekend-container">
+    <section className="weekend-section section-padding">
+      <div className="weekend-container section-container">
         <h2 className="weekend-title">
           Weekend <span className="accent">Thematic Classes</span>
         </h2>

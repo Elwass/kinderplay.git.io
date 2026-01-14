@@ -2,8 +2,8 @@ import imgTrial from "../../assets/Rectangle 31 (3).png";
 
 export default function TrialProgram() {
   return (
-    <section className="trial-section">
-      <div className="trial-container">
+    <section className="trial-section section-padding">
+      <div className="trial-container section-container">
         <h2 className="trial-title">
           <span className="trial-accent">Trial</span> Program
         </h2>

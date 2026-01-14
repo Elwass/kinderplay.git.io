@@ -5,7 +5,7 @@ import starRight from "../../assets/vector (1).png";
 
 const LearningFramework = () => {
   return (
-    <section className="relative w-full overflow-hidden bg-[#F6EFE7] py-[clamp(56px,7vw,120px)]">
+    <section className="relative w-full overflow-hidden bg-[#F6EFE7] section-padding">
       <img
         src={starLeft}
         alt=""
@@ -19,9 +19,9 @@ const LearningFramework = () => {
         className="pointer-events-none absolute right-[96px] top-[260px] hidden h-[120px] w-[120px] lg:block"
       />
 
-      <div className="mx-auto flex w-full max-w-[1440px] flex-col gap-[clamp(28px,4vw,52px)] px-6 md:px-12 lg:px-20">
+      <div className="section-container flex w-full flex-col gap-10 lg:gap-12">
         <div className="text-center text-[#6F5F52]">
-          <h2 className="text-[clamp(32px,3.4vw,52px)] font-semibold leading-[1.2]">
+          <h2 className="text-[clamp(34px,3.4vw,52px)] font-semibold leading-[1.2]">
             The <span className="text-[#D98956]">Kinderra</span> Learning Framework
           </h2>
           <p className="mx-auto mt-[14px] max-w-[640px] text-[clamp(14px,1.1vw,18px)] leading-[1.5] tracking-[0.01em]">
@@ -30,8 +30,8 @@ const LearningFramework = () => {
           </p>
         </div>
 
-        <div className="grid items-start gap-[clamp(28px,4vw,52px)] lg:grid-cols-[minmax(0,520px)_minmax(0,1fr)] lg:items-center">
-          <div className="flex flex-col gap-[clamp(18px,2.4vw,28px)]">
+        <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,520px)_minmax(0,1fr)] lg:items-center lg:gap-12">
+          <div className="flex flex-col gap-6 lg:gap-8">
             <div className="h-[clamp(230px,23vw,300px)] w-full overflow-hidden rounded-[32px]">
               <img
                 src={rectTop}
