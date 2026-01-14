@@ -4,7 +4,7 @@ import "./WhyChoose.css";
 export default function WhyChoose() {
   return (
     <section
-      className="why-choose"
+      className="why-choose whychoose--show-bg"
       style={{ ["--whychoose-bg" as never]: `url(${educationalBg})` }}
     >
       <div className="why-split">
