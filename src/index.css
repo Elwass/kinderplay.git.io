@@ -510,12 +510,16 @@ html {
 
 .balanced-rhythm {
   background: #f6efe7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .balanced-rhythm__container {
   max-width: 900px;
   margin: 0 auto;
-  padding: 88px 24px 92px;
+  padding: 48px 24px 92px;
   text-align: center;
   color: #6b5a4a;
 }
@@ -539,7 +543,8 @@ html {
 }
 
 .balanced-rhythm__image {
-  max-width: 620px;
+  width: min(900px, 90vw);
+  max-width: 900px;
   margin: 0 auto 26px;
 }
 
@@ -547,6 +552,7 @@ html {
   width: 100%;
   height: auto;
   display: block;
+  object-fit: contain;
 }
 
 .balanced-rhythm__note {
