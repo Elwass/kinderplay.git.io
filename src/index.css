@@ -507,3 +507,65 @@ html {
     display: none;
   }
 }
+
+.balanced-rhythm {
+  background: #f6efe7;
+}
+
+.balanced-rhythm__container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 88px 24px 92px;
+  text-align: center;
+  color: #6b5a4a;
+}
+
+.balanced-rhythm__title {
+  margin: 0 0 16px;
+  font-size: 44px;
+  line-height: 1.1;
+  font-weight: 800;
+}
+
+.balanced-rhythm__title span {
+  color: #d88957;
+}
+
+.balanced-rhythm__subtitle {
+  margin: 0 auto 36px;
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: rgba(107, 90, 74, 0.8);
+}
+
+.balanced-rhythm__image {
+  max-width: 620px;
+  margin: 0 auto 26px;
+}
+
+.balanced-rhythm__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.balanced-rhythm__note {
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 1.6;
+  color: rgba(107, 90, 74, 0.85);
+}
+
+@media (max-width: 640px) {
+  .balanced-rhythm__container {
+    padding: 64px 18px 72px;
+  }
+
+  .balanced-rhythm__title {
+    font-size: 34px;
+  }
+
+  .balanced-rhythm__image {
+    max-width: 100%;
+  }
+}
