@@ -9,6 +9,7 @@ import TrialProgram from "../components/sections/TrialProgram";
 import WeekendThematicClasses from "../components/sections/WeekendThematicClasses";
 import WhyChoose from "../components/sections/WhyChoose";
 import LearningEnvironment from "../components/sections/LearningEnvironment";
+import JourneySection from "../components/sections/JourneySection";
 
 const LandingPage = () => {
   return (
@@ -26,6 +27,7 @@ const LandingPage = () => {
         <LearningEnvironment />
       </div>
       <BalancedDailyRhythm />
+      <JourneySection />
     </div>
   );
 };
