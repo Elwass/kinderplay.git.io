@@ -1,3 +1,4 @@
+import educationalBg from "../../assets/educational.png";
 import "./WhyChoose.css";
 
 export default function WhyChoose() {
@@ -46,7 +47,11 @@ export default function WhyChoose() {
           </div>
         </div>
 
-        <div className="why-right" aria-hidden="true" />
+        <div
+          className="why-right whychoose__right"
+          style={{ ["--whychoose-bg" as never]: `url(${educationalBg})` }}
+          aria-hidden="true"
+        />
       </div>
     </section>
   );

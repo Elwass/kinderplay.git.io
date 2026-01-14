@@ -47,6 +47,16 @@
 
 .why-right {
   position: relative;
+  background-image: var(--whychoose-bg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.whychoose--show-bg .whychoose__right {
+  opacity: 1;
 }
 
 .why-inner {
