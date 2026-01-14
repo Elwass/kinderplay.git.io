@@ -64,8 +64,14 @@ const Hero = () => {
                 </svg>
               </div>
               <p className="whitespace-nowrap px-[clamp(48px,5.5vw,80px)] text-[clamp(12px,1.2vw,16px)] leading-[1.2]">
-                JOIN OUR TRIAL CLASS &amp; STORY BOOK PLAYDATE{" "}
-                <span className="font-semibold">ON JANUARY 17 &amp; 24!</span>
+                <span className="sm:hidden">
+                  JOIN TRIAL CLASS &amp; PLAYDATE{" "}
+                  <span className="font-semibold">JAN 17 &amp; 24!</span>
+                </span>
+                <span className="hidden sm:inline">
+                  JOIN OUR TRIAL CLASS &amp; STORY BOOK PLAYDATE{" "}
+                  <span className="font-semibold">ON JANUARY 17 &amp; 24!</span>
+                </span>
               </p>
             </div>
 
