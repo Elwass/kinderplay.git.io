@@ -16,7 +16,6 @@ const LandingPage = () => {
       <Hero />
       <FeatureStrip />
       <LearningFramework />
-      <BalancedDailyRhythm />
       <Readiness />
       <DaycareProgram />
       <OSHC />
@@ -26,6 +25,7 @@ const LandingPage = () => {
         <WhyChoose />
         <LearningEnvironment />
       </div>
+      <BalancedDailyRhythm />
     </div>
   );
 };
