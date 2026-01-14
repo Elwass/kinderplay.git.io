@@ -20,8 +20,10 @@ const LandingPage = () => {
       <OSHC />
       <WeekendThematicClasses />
       <TrialProgram />
-      <WhyChoose />
-      <LearningEnvironment />
+      <div className="blue-bridge">
+        <WhyChoose />
+        <LearningEnvironment />
+      </div>
     </div>
   );
 };
