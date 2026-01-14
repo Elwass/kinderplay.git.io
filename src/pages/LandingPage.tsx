@@ -4,6 +4,7 @@ import DaycareProgram from "../components/sections/DaycareProgram";
 import LearningFramework from "../components/sections/LearningFramework";
 import OSHC from "../components/sections/OSHC";
 import Readiness from "../components/sections/Readiness";
+import TrialProgram from "../components/sections/TrialProgram";
 import WeekendThematicClasses from "../components/sections/WeekendThematicClasses";
 
 const LandingPage = () => {
@@ -16,6 +17,7 @@ const LandingPage = () => {
       <DaycareProgram />
       <OSHC />
       <WeekendThematicClasses />
+      <TrialProgram />
     </div>
   );
 };
