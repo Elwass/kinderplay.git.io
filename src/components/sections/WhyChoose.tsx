@@ -3,7 +3,10 @@ import "./WhyChoose.css";
 
 export default function WhyChoose() {
   return (
-    <section className="why-section">
+    <section
+      className="why-choose"
+      style={{ ["--whychoose-bg" as never]: `url(${educationalBg})` }}
+    >
       <div className="why-split">
         <div className="why-left">
           <div className="why-inner">
@@ -47,11 +50,7 @@ export default function WhyChoose() {
           </div>
         </div>
 
-        <div
-          className="why-right whychoose__right"
-          style={{ ["--whychoose-bg" as never]: `url(${educationalBg})` }}
-          aria-hidden="true"
-        />
+        <div className="why-right whychoose__right" aria-hidden="true" />
       </div>
     </section>
   );
