@@ -301,9 +301,9 @@ html {
   background-image: linear-gradient(
       90deg,
       rgba(207, 225, 236, 1) 0%,
-      rgba(207, 225, 236, 1) 40%,
-      rgba(207, 225, 236, 0.9) 55%,
-      rgba(207, 225, 236, 0.55) 70%,
+      rgba(207, 225, 236, 1) 48%,
+      rgba(207, 225, 236, 0.8) 62%,
+      rgba(207, 225, 236, 0.35) 78%,
       rgba(207, 225, 236, 0) 100%
     ),
     var(--why-bg);
@@ -315,15 +315,16 @@ html {
 .why-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 86px 24px 90px;
+  padding: 88px clamp(24px, 6vw, 120px) 90px;
 }
 
 .why-title {
-  margin: 0 0 44px;
+  margin: 0 0 38px;
   color: #6b5a4a;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.05;
+  text-align: left;
 }
 
 .why-title span {
@@ -333,32 +334,32 @@ html {
 .why-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 64px;
-  max-width: 760px;
+  gap: 72px;
+  max-width: 720px;
 }
 
 .why-col {
   display: flex;
   flex-direction: column;
-  gap: 42px;
+  gap: 36px;
 }
 
 .why-col-right {
-  padding-top: 10px;
+  padding-top: 6px;
 }
 
 .why-feature {
   display: flex;
-  gap: 14px;
+  gap: 12px;
   align-items: flex-start;
 }
 
 .why-icon {
-  width: 34px;
-  height: 34px;
+  width: 32px;
+  height: 32px;
   color: #6b5a4a;
   flex: 0 0 auto;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 .why-svg {
@@ -370,7 +371,7 @@ html {
   margin: 0 0 6px;
   color: #6b5a4a;
   font-weight: 900;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.15;
 }
 
@@ -381,9 +382,9 @@ html {
 .why-desc {
   margin: 0;
   color: #6b5a4a;
-  font-size: 10.5px;
+  font-size: 11px;
   line-height: 1.55;
-  max-width: 260px;
+  max-width: 240px;
 }
 
 @media (max-width: 1024px) {
@@ -391,8 +392,8 @@ html {
     background-image: linear-gradient(
         180deg,
         rgba(207, 225, 236, 1) 0%,
-        rgba(207, 225, 236, 0.95) 55%,
-        rgba(207, 225, 236, 0.8) 100%
+        rgba(207, 225, 236, 0.95) 60%,
+        rgba(207, 225, 236, 0.85) 100%
       ),
       var(--why-bg);
     background-position: center, center;
@@ -400,7 +401,7 @@ html {
 
   .why-grid {
     grid-template-columns: 1fr;
-    gap: 34px;
+    gap: 32px;
     max-width: 700px;
   }
 
@@ -415,11 +416,11 @@ html {
   }
 
   .why-title {
-    font-size: 36px;
-    margin-bottom: 30px;
+    font-size: 34px;
+    margin-bottom: 28px;
   }
 
   .why-col {
-    gap: 28px;
+    gap: 24px;
   }
 }
