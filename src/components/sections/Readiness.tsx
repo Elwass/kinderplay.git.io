@@ -2,7 +2,7 @@ import readinessImg from "../../assets/Rectangle 41 (1).png";
 
 const Readiness = () => {
   return (
-    <section className="readiness-section section-padding relative w-full bg-[#F6EFE7] [isolation:isolate]">
+    <section className="section-padding w-full bg-[#F6EFE7]">
       <div className="mx-auto flex w-full max-w-[1440px] flex-col gap-[clamp(28px,4vw,52px)] px-6 md:px-12 lg:px-20">
         <div className="text-center text-[#6F5F52]">
           <h2 className="text-[clamp(28px,3.2vw,48px)] font-semibold leading-[1.2]">

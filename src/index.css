@@ -34,51 +34,5 @@ html {
 }
 
 .our-programs-section {
-  position: relative;
-  overflow: hidden;
   background: #fff;
-}
-
-.our-programs-section::before {
-  content: "";
-  position: absolute;
-  left: -10%;
-  right: -10%;
-  top: -140px;
-  height: 420px;
-  background: radial-gradient(
-    90% 115% at 50% 0%,
-    rgba(214, 189, 164, 0.22) 0%,
-    rgba(214, 189, 164, 0.12) 42%,
-    rgba(255, 255, 255, 0) 78%
-  );
-  filter: blur(18px);
-  pointer-events: none;
-  z-index: 0;
-}
-
-.our-programs-section > * {
-  position: relative;
-  z-index: 1;
-}
-
-.readiness-section {
-  position: relative;
-}
-
-.readiness-section::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: clamp(120px, 18vw, 160px);
-  background: linear-gradient(
-    180deg,
-    rgba(246, 239, 231, 0) 0%,
-    rgba(246, 239, 231, 0.35) 55%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  pointer-events: none;
-  z-index: 1;
 }
