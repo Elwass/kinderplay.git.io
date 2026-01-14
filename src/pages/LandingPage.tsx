@@ -1,6 +1,13 @@
 import FeatureStrip from "../components/sections/FeatureStrip";
 import Hero from "../components/sections/Hero";
+import DaycareProgram from "../components/sections/DaycareProgram";
 import LearningFramework from "../components/sections/LearningFramework";
+import OSHC from "../components/sections/OSHC";
+import Readiness from "../components/sections/Readiness";
+import TrialProgram from "../components/sections/TrialProgram";
+import WeekendThematicClasses from "../components/sections/WeekendThematicClasses";
+import WhyChoose from "../components/sections/WhyChoose";
+import LearningEnvironment from "../components/sections/LearningEnvironment";
 
 const LandingPage = () => {
   return (
@@ -8,6 +15,15 @@ const LandingPage = () => {
       <Hero />
       <FeatureStrip />
       <LearningFramework />
+      <Readiness />
+      <DaycareProgram />
+      <OSHC />
+      <WeekendThematicClasses />
+      <TrialProgram />
+      <div className="blue-bridge">
+        <WhyChoose />
+        <LearningEnvironment />
+      </div>
     </div>
   );
 };
