@@ -7,6 +7,7 @@ import Readiness from "../components/sections/Readiness";
 import TrialProgram from "../components/sections/TrialProgram";
 import WeekendThematicClasses from "../components/sections/WeekendThematicClasses";
 import WhyChoose from "../components/sections/WhyChoose";
+import LearningEnvironment from "../components/sections/LearningEnvironment";
 
 const LandingPage = () => {
   return (
@@ -20,6 +21,7 @@ const LandingPage = () => {
       <WeekendThematicClasses />
       <TrialProgram />
       <WhyChoose />
+      <LearningEnvironment />
     </div>
   );
 };
