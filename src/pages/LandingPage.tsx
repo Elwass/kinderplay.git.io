@@ -4,6 +4,7 @@ import DaycareProgram from "../components/sections/DaycareProgram";
 import LearningFramework from "../components/sections/LearningFramework";
 import OSHC from "../components/sections/OSHC";
 import Readiness from "../components/sections/Readiness";
+import BalancedDailyRhythm from "../components/sections/BalancedDailyRhythm";
 import TrialProgram from "../components/sections/TrialProgram";
 import WeekendThematicClasses from "../components/sections/WeekendThematicClasses";
 import WhyChoose from "../components/sections/WhyChoose";
@@ -15,6 +16,7 @@ const LandingPage = () => {
       <Hero />
       <FeatureStrip />
       <LearningFramework />
+      <BalancedDailyRhythm />
       <Readiness />
       <DaycareProgram />
       <OSHC />
