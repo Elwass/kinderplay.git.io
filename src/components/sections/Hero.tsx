@@ -11,7 +11,7 @@ const Hero = () => {
       />
       <div className="pointer-events-none absolute bottom-0 left-0 z-[1] h-[clamp(120px,12vw,200px)] w-full bg-gradient-to-b from-transparent to-[#F6EFE7]" />
       <div className="relative z-10 mx-auto flex min-h-screen w-full max-w-[1480px] flex-col items-center px-6 pb-[clamp(32px,5vw,80px)] pt-[clamp(28px,4vw,56px)] lg:px-16 xl:px-10">
-        <div className="hero-topbar w-full">
+        <div className="hero-topbar">
           <img
             src={logo}
             alt="Kinderra Play"
@@ -41,9 +41,9 @@ const Hero = () => {
             </button>
 
             <div className="hero-pill">
-              <div className="absolute left-[clamp(16px,1.8vw,28px)] top-1/2 h-[clamp(16px,1.5vw,20px)] w-[clamp(14px,1.3vw,18px)] -translate-y-1/2">
+              <div className="hero-pill__content">
                 <svg
-                  className="h-full w-full"
+                  className="hero-pill__icon"
                   viewBox="0 0 20 20"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -62,17 +62,17 @@ const Hero = () => {
                     strokeLinecap="round"
                   />
                 </svg>
+                <p className="hero-pill__text">
+                  <span className="sm:hidden">
+                    JOIN TRIAL CLASS &amp; PLAYDATE{" "}
+                    <span className="font-semibold">JAN 17 &amp; 24!</span>
+                  </span>
+                  <span className="hidden sm:inline">
+                    JOIN OUR TRIAL CLASS &amp; STORY BOOK PLAYDATE{" "}
+                    <span className="font-semibold">ON JANUARY 17 &amp; 24!</span>
+                  </span>
+                </p>
               </div>
-              <p className="hero-pill__text">
-                <span className="sm:hidden">
-                  JOIN TRIAL CLASS &amp; PLAYDATE{" "}
-                  <span className="font-semibold">JAN 17 &amp; 24!</span>
-                </span>
-                <span className="hidden sm:inline">
-                  JOIN OUR TRIAL CLASS &amp; STORY BOOK PLAYDATE{" "}
-                  <span className="font-semibold">ON JANUARY 17 &amp; 24!</span>
-                </span>
-              </p>
             </div>
 
             <button
@@ -101,7 +101,7 @@ const Hero = () => {
             type="button"
             className="hero-register-button"
           >
-            <span className="text-[clamp(16px,1.5vw,24px)] font-semibold uppercase text-[#6F5F52]">
+            <span className="text-[clamp(12px,1vw,14px)] font-semibold uppercase text-[#6F5F52]">
               Register
             </span>
             <svg
