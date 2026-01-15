@@ -11,14 +11,14 @@ const Hero = () => {
       />
       <div className="pointer-events-none absolute bottom-0 left-0 z-[1] h-[clamp(120px,12vw,200px)] w-full bg-gradient-to-b from-transparent to-[#F6EFE7]" />
       <div className="relative z-10 mx-auto flex min-h-screen w-full max-w-[1480px] flex-col items-center px-6 pb-[clamp(32px,5vw,80px)] pt-[clamp(28px,4vw,56px)] lg:px-16 xl:px-10">
-        <div className="grid w-full grid-cols-1 items-center gap-[clamp(16px,2.5vw,24px)] sm:grid-cols-[auto_1fr_auto] sm:gap-[clamp(12px,2vw,20px)]">
+        <div className="hero-topbar">
           <img
             src={logo}
             alt="Kinderra Play"
-            className="h-[clamp(120px,12vw,170px)] w-[clamp(120px,12vw,170px)] justify-self-center object-contain sm:justify-self-start"
+            className="hero-logo"
           />
 
-          <div className="flex items-center justify-center gap-[clamp(10px,1.6vw,16px)] justify-self-center">
+          <div className="hero-announcement">
             <button
               type="button"
               aria-label="Previous announcement"
@@ -40,10 +40,10 @@ const Hero = () => {
               </svg>
             </button>
 
-            <div className="relative flex h-[clamp(46px,4vw,60px)] w-[clamp(280px,40vw,640px)] items-center justify-center rounded-[999px] bg-[#D98956] text-[#FFFFFF]">
-              <div className="absolute left-[clamp(16px,1.8vw,28px)] top-1/2 h-[clamp(16px,1.5vw,20px)] w-[clamp(14px,1.3vw,18px)] -translate-y-1/2">
+            <div className="hero-pill">
+              <div className="hero-pill__content">
                 <svg
-                  className="h-full w-full"
+                  className="hero-pill__icon"
                   viewBox="0 0 20 20"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -62,11 +62,17 @@ const Hero = () => {
                     strokeLinecap="round"
                   />
                 </svg>
+                <p className="hero-pill__text">
+                  <span className="sm:hidden">
+                    JOIN TRIAL CLASS &amp; PLAYDATE{" "}
+                    <span className="font-semibold">JAN 17 &amp; 24!</span>
+                  </span>
+                  <span className="hidden sm:inline">
+                    JOIN OUR TRIAL CLASS &amp; STORY BOOK PLAYDATE{" "}
+                    <span className="font-semibold">ON JANUARY 17 &amp; 24!</span>
+                  </span>
+                </p>
               </div>
-              <p className="whitespace-nowrap px-[clamp(48px,5.5vw,80px)] text-[clamp(12px,1.2vw,16px)] leading-[1.2]">
-                JOIN OUR TRIAL CLASS &amp; STORY BOOK PLAYDATE{" "}
-                <span className="font-semibold">ON JANUARY 17 &amp; 24!</span>
-              </p>
             </div>
 
             <button
@@ -93,9 +99,9 @@ const Hero = () => {
 
           <button
             type="button"
-            className="flex h-[clamp(36px,3.2vw,45px)] w-[clamp(140px,11vw,181px)] items-center justify-center gap-[clamp(6px,1vw,10px)] justify-self-center rounded-[999px] border-[3px] border-[#6F5F52] bg-transparent sm:justify-self-end"
+            className="hero-register-button"
           >
-            <span className="text-[clamp(16px,1.5vw,24px)] font-semibold uppercase text-[#6F5F52]">
+            <span className="text-[clamp(12px,1vw,14px)] font-semibold uppercase text-[#6F5F52]">
               Register
             </span>
             <svg
@@ -147,17 +153,17 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="mt-[clamp(24px,4.5vw,64px)] flex flex-col items-center justify-center gap-[clamp(16px,3vw,44px)] sm:flex-row">
+          <div className="hero-cta-buttons">
             <button
               type="button"
-              className="flex h-[clamp(60px,6vw,82px)] w-[clamp(220px,20vw,294px)] flex-col items-center justify-center rounded-[999px] bg-[#D98956] text-[clamp(16px,1.6vw,20px)] font-semibold leading-[1.3] text-white shadow-[0px_0px_10px_2px_rgba(255,210,49,0.5)]"
+              className="hero-cta hero-cta--primary"
             >
               <span>Register for a</span>
               <span>Trial Class</span>
             </button>
             <button
               type="button"
-              className="flex h-[clamp(60px,6vw,82px)] w-[clamp(220px,20vw,294px)] flex-col items-center justify-center rounded-[999px] border-[3px] border-[#D98956] bg-transparent text-[clamp(16px,1.6vw,20px)] font-medium leading-[1.3] text-[#D98956] shadow-[0px_0px_8px_1px_rgba(217,137,86,0.2)]"
+              className="hero-cta hero-cta--secondary"
             >
               <span>Get Enrollment</span>
               <span>Information</span>
